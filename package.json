@@ -1,0 +1,38 @@
+{
+  "name": "javascript-playground",
+  "version": "1.0.0",
+  "description": "JavaScript Playground",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Johnny Miller",
+    "email": "johnnysviva@outlook.com",
+    "url": "https://github.com/johnnymillergh"
+  },
+  "bugs": {
+    "url": "https://github.com/johnnymillergh/javascript-playground/issues/new",
+    "email": "johnnysviva@outlook.com"
+  },
+  "repository": {
+    "url": "https://github.com/johnnymillergh/javascript-playground",
+    "type": "git"
+  },
+  "keywords": [
+    "javascript",
+    "playground"
+  ],
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --debug --ext .js src test",
+    "lint:fix": "eslint --fix --debug --ext .js src test",
+    "travis:go": "npm run lint && npm run test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.7.0",
+    "jest": "^26.4.2"
+  }
+}
