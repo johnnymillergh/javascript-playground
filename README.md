@@ -1,3 +1,5 @@
+![JavaScript Playground Feature Graphics](https://raw.githubusercontent.com/johnnymillergh/MaterialLibrary/master/javascript-playground/javascript-playground-social-image.png)
+
 [![GitHub release](https://img.shields.io/github/release/johnnymillergh/javascript-playground.svg)](https://github.com/johnnymillergh/javascript-playground/releases)
 [![Build Status](https://travis-ci.com/johnnymillergh/javascript-playground.svg?branch=master)](https://travis-ci.com/johnnymillergh/javascript-playground)
 [![GitHub issues](https://img.shields.io/github/issues/johnnymillergh/javascript-playground)](https://github.com/johnnymillergh/javascript-playground/issues)
