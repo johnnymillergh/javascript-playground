@@ -5,5 +5,6 @@ module.exports = {
         node: 'current'
       }
     }]
-  ]
+  ],
+  plugins: ['@babel/plugin-proposal-optional-chaining']
 }

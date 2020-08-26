@@ -11,6 +11,11 @@ describe('Hello', () => {
   })
 
   test.concurrent('subtraction 2 numbers', async () => {
+    const obj = {
+      id: 1,
+      name: 'Johnny'
+    }
+    console.info(obj?.id)
     expect(5 - 3).toBe(2)
   })
 })

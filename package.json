@@ -23,12 +23,13 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "lint": "eslint --debug --ext .js src test",
-    "lint:fix": "eslint --fix --debug --ext .js src test",
+    "lint": "eslint --debug --ext .js src tests",
+    "lint:fix": "eslint --fix --debug --ext .js src tests",
     "travis:go": "npm run lint && npm run test"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.0",
