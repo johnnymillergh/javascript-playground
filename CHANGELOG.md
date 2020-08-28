@@ -1,3 +1,22 @@
+## [1.2.1](https://github.com/johnnymillergh/javascript-playground/compare/v1.2.0...v1.2.1) (2020-08-28)
+
+
+### Bug Fixes
+
+* **README:** correct README ([6a82839](https://github.com/johnnymillergh/javascript-playground/commit/6a8283926324cb2c343cbeaf85eaf61baede516d))
+
+
+### Performance Improvements
+
+* **Jest:** execute Jest code coverage ([6bb4add](https://github.com/johnnymillergh/javascript-playground/commit/6bb4addec7ed07e867a4746ef5af9e576337ab84))
+
+
+### BREAKING CHANGES
+
+* **Jest:** execute and generate Jest code coverage reports
+
+
+
 # [1.2.0](https://github.com/johnnymillergh/javascript-playground/compare/v1.1.1...v1.2.0) (2020-08-28)
 
 
