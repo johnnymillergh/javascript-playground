@@ -2,8 +2,10 @@
  * Convert roman number to integer
  * @param {string} s Given a roman numeral, convert it to an integer. Input is guaranteed to be wi thin the range from 1 to 3999
  * @return {number} converted integer
+ * @author Johnny Miller (锺俊), e-mail: johnnysviva@outlook.com
+ * @date 8/28/20 3:01 PM
  */
-export var romanToInt = function (s) {
+export const romanToInt = function (s) {
   const romanNumberList = ['I', 'V', 'X', 'L', 'C', 'D', 'M']
   const romanNumberValueList = [1, 5, 10, 50, 100, 500, 1000]
   let integerValue = 0
