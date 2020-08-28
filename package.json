@@ -23,7 +23,7 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "lint": "eslint --debug --ext .js src tests",
+    "lint": "eslint --ext .js src tests",
     "lint:fix": "eslint --fix --debug --ext .js src tests",
     "travis:go": "npm run lint && npm run test"
   },
