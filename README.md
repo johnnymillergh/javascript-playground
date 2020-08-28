@@ -16,7 +16,10 @@
 
 Here are the highlights of **JavaScript Playground**:
 
-1. Left blank temporarily
+1. The latest JavaScript feature demonstrations included. For example, Proxy, Reflect.
+2. LeetCode solutions in JavaScript. (Under **heavy construction**) 
+3. The latest **EsLint** and **lint-staged** to ensure code quality.
+4. Support Jest and generate code coverage reports.
 
 ## Roadmap
 
@@ -43,30 +46,20 @@ Recommended IDE is the latest version JetBrains WebStorm.
 ### Compiles and Hot-reloads for Development
 
    ```shell
-npm run serve
+npm run test
    ```
-
-### Compiles and Minifies for Production
-
-```shell
-npm run build
-```
 
 ### Run Your Unit Tests
 
 ```sh
-npm run test:unit
+npm run test
 ```
 
 ### Lints and fixes files
 
 ```shell
-npm run lint
+npm run lint:fix
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Maintainers
 
