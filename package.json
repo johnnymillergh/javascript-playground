@@ -1,6 +1,6 @@
 {
   "name": "javascript-playground",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "JavaScript Playground",
   "license": "Apache-2.0",
   "author": {
@@ -34,20 +34,24 @@
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.0",
     "eslint": "^7.7.0",
+    "husky": "^4.2.5",
     "jest": "^26.4.2",
     "lint-staged": "^10.2.11"
   },
   "engines": {
-    "node": ">=12.0.0",
-    "npm": ">=6.0.0"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+    "node": ">=12.18.3",
+    "npm": ">=6.14.6"
   },
   "lint-staged": {
     "*.{js}": [
       "lint",
       "git add"
-    ]
+    ],
+    "*.js": "eslint --cache --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
