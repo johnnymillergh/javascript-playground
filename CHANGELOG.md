@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/johnnymillergh/javascript-playground/compare/v1.2.1...v1.2.2) (2020-08-28)
+
+
+### Performance Improvements
+
+* **EsLint:** turn off debug output ([4f82939](https://github.com/johnnymillergh/javascript-playground/commit/4f829397eda4c46b5b37e5e89305aeda89b9d5b2))
+
+
+
 ## [1.2.1](https://github.com/johnnymillergh/javascript-playground/compare/v1.2.0...v1.2.1) (2020-08-28)
 
 
