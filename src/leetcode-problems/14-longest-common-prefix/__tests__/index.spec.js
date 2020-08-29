@@ -29,4 +29,18 @@ describe('Unit tests for LeetCode [14] Longest common prefix', () => {
     console.info(`longestCommonPrefix for ${strs}:`, result)
     expect(result).toEqual('')
   })
+
+  test('Case 5', () => {
+    const strs = []
+    const result = longestCommonPrefix(strs)
+    console.info(`longestCommonPrefix for ${strs}:`, result)
+    expect(result).toEqual('')
+  })
+
+  test('Case 6', () => {
+    const strs = ['red', 'yellow', 'blue']
+    const result = longestCommonPrefix(strs)
+    console.info(`longestCommonPrefix for ${strs}:`, result)
+    expect(result).toEqual('')
+  })
 })
