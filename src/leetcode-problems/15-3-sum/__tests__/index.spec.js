@@ -7,13 +7,11 @@ const correctResult = [[-4, -2, 6], [-4, 0, 4], [-4, 1, 3], [-4, 2, 2], [-2, -2,
 describe('Unit tests for LeetCode [15] 3 Sum', () => {
   test('Case 1', () => {
     const wrongThreeSumResult = wrongThreeSum(nums)
-    console.info('wrongThreeSumResult', wrongThreeSumResult)
     expect(wrongThreeSumResult).not.toEqual(correctResult)
   })
 
   test('Case 2', () => {
     const threeSumResult = threeSum(nums)
-    console.info('threeSumResult', threeSumResult)
     expect(threeSumResult).toEqual(correctResult)
   })
 })
