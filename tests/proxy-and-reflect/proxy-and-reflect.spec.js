@@ -7,10 +7,10 @@ describe('Proxy and Reflect in JavaScript', () => {
       { id: 1, name: 'Johnny' },
       (key, value) => {
         if (typeof value === 'object') {
-          console.info(`Observed field change! [${key}]: ${JSON.stringify(value)}`)
-          return
+          // console.info(`Observed field change! [${key}]: ${JSON.stringify(value)}`)
+          // return
         }
-        console.info(`Observed field change! [${key}]: ${value}`)
+        // console.info(`Observed field change! [${key}]: ${value}`)
       }
     )
 
@@ -20,8 +20,6 @@ describe('Proxy and Reflect in JavaScript', () => {
       id: 2,
       name: 'Mario'
     }
-
-    console.info('otherObject', objectProxy.otherObject)
 
     delete objectProxy.otherObject
     expect(objectProxy.id).toBe(2)

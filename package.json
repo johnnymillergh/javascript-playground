@@ -43,11 +43,7 @@
     "npm": ">=6.14.6"
   },
   "lint-staged": {
-    "*.{js}": [
-      "lint",
-      "git add"
-    ],
-    "*.js": "eslint --cache --fix"
+    "*.{js,jsx}": "npm run lint"
   },
   "husky": {
     "hooks": {
