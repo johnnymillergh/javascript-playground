@@ -10,6 +10,8 @@
  * </ul>
  * @param {number[]} nums
  * @return {boolean} true - could modify at most 1 element to get a non-decreasing array; false - vice versa
+ * @see https://leetcode.com/problems/non-decreasing-array/ 665. Non-decreasing Array
+ * @see https://leetcode.com/problems/non-decreasing-array/discuss/314692/JavaScript-solution Inspiration
  */
 export const checkPossibility = (nums) => {
   let count = 0

@@ -8,6 +8,7 @@
  * @return {string} longest common prefix
  * @author Johnny Miller (锺俊), e-mail: johnnysviva@outlook.com
  * @date 8/28/20 3:01 PM
+ * @see https://leetcode.com/problems/longest-common-prefix Longest Common Prefix
  */
 export const longestCommonPrefix = function (strs) {
   if (!strs.length) {

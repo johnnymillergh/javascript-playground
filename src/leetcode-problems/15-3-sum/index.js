@@ -1,6 +1,7 @@
 /**
  * @param {number[]} nums
  * @return {number[][]}
+ * @see https://leetcode.com/problems/3sum 3Sum
  */
 export const wrongThreeSum = (nums) => {
   const threeSums = []
@@ -68,6 +69,7 @@ const checkDuplicate = (threeSums, target) => {
 /**
  * @param {number[]} nums
  * @return {number[][]}
+ * @see https://leetcode.com/problems/3sum 3Sum
  */
 export const threeSum = (nums) => {
   nums.sort((a, b) => a - b)
