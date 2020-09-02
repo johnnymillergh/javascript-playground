@@ -1,3 +1,36 @@
+# [1.3.0](https://github.com/johnnymillergh/javascript-playground/compare/v1.2.2...v1.3.0) (2020-09-02)
+
+
+### Features
+
+* **LeetCode:** add correct 3 sum solution ([22825c9](https://github.com/johnnymillergh/javascript-playground/commit/22825c97ce8584d02f87e9fba4fb702acf7f15ac))
+* **LeetCode:** add solution and unit tests for correct non-decreasing array ([56c4a17](https://github.com/johnnymillergh/javascript-playground/commit/56c4a1779e8faa3a114eb4e680cfd0946fa89ab0))
+* **LeetCode:** add solution and unit tests for merge two sorted lists ([8deaf14](https://github.com/johnnymillergh/javascript-playground/commit/8deaf145375b56c93c448b2d83a9c0bc34b22c99))
+* **LeetCode:** add solution and unit tests for palindrome number ([f3530f8](https://github.com/johnnymillergh/javascript-playground/commit/f3530f86fec0d48bcf9dff5cfeae61e3085a7085))
+* **LeetCode:** add solution and unit tests for valid parentheses ([c4d0db7](https://github.com/johnnymillergh/javascript-playground/commit/c4d0db77467e531f7cbcb2adfde035d41f15f39c))
+* **LeetCode:** add wrong 3 Sum solution ([4880a91](https://github.com/johnnymillergh/javascript-playground/commit/4880a91aae9c32f3a3086ccbc3051e379db69925))
+
+
+### Performance Improvements
+
+* **Jest:** refine Jest configuration ([c287a6b](https://github.com/johnnymillergh/javascript-playground/commit/c287a6bf8e63db9a1ac5730502454da4e834c0de))
+* **Jest:** remove console logs ([e8360ac](https://github.com/johnnymillergh/javascript-playground/commit/e8360acd88fef4bb3eb0d74d29a1be5057f65758))
+* **lint-staged:** update command ([16568b2](https://github.com/johnnymillergh/javascript-playground/commit/16568b27586a459309779109bece50f77eaf39f3))
+
+
+### Tests
+
+* **LeetCode:** add more tests for longest common prefix ([369d209](https://github.com/johnnymillergh/javascript-playground/commit/369d209737f0db83089118f9943c0a2a1e4f6d2f))
+
+
+### BREAKING CHANGES
+
+* **Jest:** refine and simplify Jest configuration
+* **lint-staged:** unify EsLint command for lint-staged
+* **LeetCode:** satisfy 100% of code coverage
+
+
+
 ## [1.2.2](https://github.com/johnnymillergh/javascript-playground/compare/v1.2.1...v1.2.2) (2020-08-28)
 
 
